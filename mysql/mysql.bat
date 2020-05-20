@@ -1,0 +1,1 @@
+docker run --name mysql --rm -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306  -v /d/docker/volumes/mysql:/var/lib/mysql -d mysql:5.7
